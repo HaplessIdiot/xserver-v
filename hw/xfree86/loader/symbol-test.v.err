@@ -1,1 +1,1 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+sh: line 1: v: command not found

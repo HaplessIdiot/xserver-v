@@ -1,1 +1,9 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+In file included from /home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/thread.c:46:
+/usr/include/X11/Xwinsock.h:57:10: fatal error: 'winsock2.h' file not found
+   57 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+1 error generated.
+
+The file /home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/thread.c could not be parsed as a C source file.
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/thread.c'
+C2V failed to translate the C files. Please report it via GitHub.

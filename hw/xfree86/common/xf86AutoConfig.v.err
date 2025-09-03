@@ -1,1 +1,10 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+In file included from /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86AutoConfig.c:36:
+In file included from /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86.h:44:
+/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86str.h:37:10: fatal error: 'misc.h' file not found
+   37 | #include "misc.h"
+      |          ^~~~~~~~
+1 error generated.
+
+The file /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86AutoConfig.c could not be parsed as a C source file.
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86AutoConfig.c'
+C2V failed to translate the C files. Please report it via GitHub.

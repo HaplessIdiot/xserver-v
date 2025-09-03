@@ -1,1 +1,78 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:219:27: error: call to undeclared library function 'strlen' with type 'unsigned long (const char *)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  219 |     for (i = 0; i < (int) strlen (str); i++)
+      |                           ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:219:27: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:256:5: error: call to undeclared function 'prmsg'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  256 |     prmsg (3,"SocketSelectFamily(%s)\n", family);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:260:14: error: call to undeclared library function 'strcmp' with type 'int (const char *, const char *)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  260 |         if (!strcmp (family, Sockettrans2devtab[i].transname))
+      |              ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:260:14: note: include the header <string.h> or explicitly provide a declaration for 'strcmp'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:273:42: error: unknown type name 'XtransConnInfo'
+  273 | static int _XSERVTransSocketINETGetAddr (XtransConnInfo ciptr)
+      |                                          ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:278:24: error: variable has incomplete type 'struct sockaddr_in'
+  278 |     struct sockaddr_in sockname;
+      |                        ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:278:12: note: forward declaration of 'struct sockaddr_in'
+  278 |     struct sockaddr_in sockname;
+      |            ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:283:5: error: call to undeclared function 'prmsg'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  283 |     prmsg (3,"SocketINETGetAddr(%p)\n", (void *) ciptr);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:285:5: error: call to undeclared library function 'memset' with type 'void *(void *, int, unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  285 |     memset(socknamePtr, 0, namelen);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:285:5: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:294:6: error: call to undeclared function 'EGET'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  294 |             EGET());
+      |             ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:302:24: error: call to undeclared library function 'malloc' with type 'void *(unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  302 |     if ((ciptr->addr = malloc (namelen)) == NULL)
+      |                        ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:302:24: note: include the header <stdlib.h> or explicitly provide a declaration for 'malloc'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:311:5: error: call to undeclared library function 'memcpy' with type 'void *(void *, const void *, unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  311 |     memcpy (ciptr->addr, socknamePtr, ciptr->addrlen);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:311:5: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:322:46: error: unknown type name 'XtransConnInfo'
+  322 | static int _XSERVTransSocketINETGetPeerAddr (XtransConnInfo ciptr)
+      |                                              ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:327:25: error: variable has incomplete type 'struct sockaddr_in'
+  327 |     struct sockaddr_in  sockname;
+      |                         ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:327:12: note: forward declaration of 'struct sockaddr_in'
+  327 |     struct sockaddr_in  sockname;
+      |            ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:334:5: error: call to undeclared function 'prmsg'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  334 |     prmsg (3,"SocketINETGetPeerAddr(%p)\n", (void *) ciptr);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:343:6: error: call to undeclared function 'EGET'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  343 |             EGET());
+      |             ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:365:8: error: unknown type name 'XtransConnInfo'
+  365 | static XtransConnInfo _XSERVTransSocketOpen (int i, int type)
+      |        ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:367:5: error: use of undeclared identifier 'XtransConnInfo'
+  367 |     XtransConnInfo      ciptr;
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:369:5: error: call to undeclared function 'prmsg'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  369 |     prmsg (3,"SocketOpen(%d,%d)\n", i, type);
+      |     ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:371:18: error: call to undeclared library function 'calloc' with type 'void *(unsigned long, unsigned long)'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  371 |     if ((ciptr = calloc (1, sizeof(struct _XtransConnInfo))) == NULL)
+      |                  ^
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:371:18: note: include the header <stdlib.h> or explicitly provide a declaration for 'calloc'
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:371:29: error: invalid application of 'sizeof' to an incomplete type 'struct _XtransConnInfo'
+  371 |     if ((ciptr = calloc (1, sizeof(struct _XtransConnInfo))) == NULL)
+      |                             ^     ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/haplessidiot/Documents/xserver/os/Xtranssock.c:371:43: note: forward declaration of 'struct _XtransConnInfo'
+  371 |     if ((ciptr = calloc (1, sizeof(struct _XtransConnInfo))) == NULL)
+      |                                           ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+The file /home/haplessidiot/Documents/xserver/os/Xtranssock.c could not be parsed as a C source file.
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/os/Xtranssock.c'
+C2V failed to translate the C files. Please report it via GitHub.

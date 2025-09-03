@@ -1,1 +1,8 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Xinput.c:60:10: fatal error: 'dix/dix_priv.h' file not found
+   60 | #include "dix/dix_priv.h"
+      |          ^~~~~~~~~~~~~~~~
+1 error generated.
+
+The file /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Xinput.c could not be parsed as a C source file.
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Xinput.c'
+C2V failed to translate the C files. Please report it via GitHub.

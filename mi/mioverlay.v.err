@@ -1,1 +1,8 @@
-./xlibre-v-converter.sh: line 40: /home/haplessidiot/v/: Is a directory
+/home/haplessidiot/Documents/xserver/mi/mioverlay.c:2:10: fatal error: 'dix-config.h' file not found
+    2 | #include <dix-config.h>
+      |          ^~~~~~~~~~~~~~
+1 error generated.
+
+The file /home/haplessidiot/Documents/xserver/mi/mioverlay.c could not be parsed as a C source file.
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/mi/mioverlay.c'
+C2V failed to translate the C files. Please report it via GitHub.
