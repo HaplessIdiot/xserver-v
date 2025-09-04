@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Option.c:41:10: fatal error: 'os.h' file not found
-   41 | #include "os.h"
-      |          ^~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Option.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Option.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

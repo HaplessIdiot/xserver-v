@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/modes/xf86Cursors.c:33:10: fatal error: 'xf86.h' file not found
-   33 | #include "xf86.h"
-      |          ^~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/modes/xf86Cursors.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/modes/xf86Cursors.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

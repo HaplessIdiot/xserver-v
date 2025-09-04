@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/os/fmt.c:11:10: fatal error: 'os/fmt.h' file not found
-   11 | #include "os/fmt.h"
-      |          ^~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/os/fmt.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/os/fmt.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

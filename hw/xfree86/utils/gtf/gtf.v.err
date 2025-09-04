@@ -1,11 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/utils/gtf/gtf.c:668:51: error: expected ')'
-  668 |     fprintf(stderr, " -x|--xorgmode : output an " __XSERVERNAME__ "-style mode "
-      |                                                   ^
-/home/haplessidiot/Documents/xserver/hw/xfree86/utils/gtf/gtf.c:668:12: note: to match this '('
-  668 |     fprintf(stderr, " -x|--xorgmode : output an " __XSERVERNAME__ "-style mode "
-      |            ^
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/utils/gtf/gtf.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/utils/gtf/gtf.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

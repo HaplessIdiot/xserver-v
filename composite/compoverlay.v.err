@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/composite/compoverlay.c:44:10: fatal error: 'dix-config.h' file not found
-   44 | #include <dix-config.h>
-      |          ^~~~~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/composite/compoverlay.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/composite/compoverlay.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

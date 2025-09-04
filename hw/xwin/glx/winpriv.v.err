@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xwin/glx/winpriv.c:10:10: fatal error: 'win.h' file not found
-   10 | #include "win.h"
-      |          ^~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xwin/glx/winpriv.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xwin/glx/winpriv.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

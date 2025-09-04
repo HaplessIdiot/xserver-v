@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/shared/sigio.c:63:10: fatal error: 'os/osdep.h' file not found
-   63 | #include "os/osdep.h"
-      |          ^~~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/os-support/shared/sigio.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/shared/sigio.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

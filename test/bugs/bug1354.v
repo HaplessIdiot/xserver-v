@@ -156,5 +156,5 @@ main loop 5
 1FN DECL c_name="get_display_pixel" cur_file="/home/haplessidiot/Documents/xserver/test/bugs/bug1354.c" node.location.file=""
 1FN DECL c_name="draw_display_pixel" cur_file="/home/haplessidiot/Documents/xserver/test/bugs/bug1354.c" node.location.file=""
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/test/bugs/bug1354.c" node.location.file=""
- c2v translate_file() took   265 ms ; output .v file: /home/haplessidiot/Documents/xserver/test/bugs/bug1354.v
-Translated   1 files in   265 ms.
+ c2v translate_file() took   273 ms ; output .v file: test/bugs/bug1354.v
+Translated   1 files in   273 ms.

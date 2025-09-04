@@ -4,5 +4,73 @@
 1 error generated.
 
 The file /home/haplessidiot/Documents/xserver/test/input.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/test/input.c'
+C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '-cc' 'clang' '-cflags' '-I/home/haplessidiot/Documents/xserver/build
+-I/home/haplessidiot/Documents/xserver/builddir
+-I/home/haplessidiot/Documents/xserver/builddir/include
+-I/home/haplessidiot/Documents/xserver/build/include
+-I/home/haplessidiot/Documents/xserver/composite
+-I/home/haplessidiot/Documents/xserver/config
+-I/home/haplessidiot/Documents/xserver/damageext
+-I/home/haplessidiot/Documents/xserver/dbe
+-I/home/haplessidiot/Documents/xserver/dix
+-I/home/haplessidiot/Documents/xserver/dri3
+-I/home/haplessidiot/Documents/xserver/exa
+-I/home/haplessidiot/Documents/xserver/fb
+-I/home/haplessidiot/Documents/xserver/glamor
+-I/home/haplessidiot/Documents/xserver/glx
+-I/home/haplessidiot/Documents/xserver/hw/kdrive/ephyr
+-I/home/haplessidiot/Documents/xserver/hw/kdrive/src
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/common
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/compat
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/ddc
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/dri
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/dri2
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/dri2/pci_ids
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/drivers/input/inputtest
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/drivers/video/modesetting
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/fbdevhw
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/i2c
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/int10
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/loader
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/modes
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/os-support
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bsd
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/linux
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/parser
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/ramdac
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/shadowfb
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/vgahw
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/x86emu
+-I/home/haplessidiot/Documents/xserver/hw/xfree86/x86emu/x86emu
+-I/home/haplessidiot/Documents/xserver/hw/xnest
+-I/home/haplessidiot/Documents/xserver/hw/xquartz
+-I/home/haplessidiot/Documents/xserver/hw/xquartz/GL
+-I/home/haplessidiot/Documents/xserver/hw/xquartz/mach-startup
+-I/home/haplessidiot/Documents/xserver/hw/xquartz/pbproxy
+-I/home/haplessidiot/Documents/xserver/hw/xquartz/xpr
+-I/home/haplessidiot/Documents/xserver/hw/xwin
+-I/home/haplessidiot/Documents/xserver/hw/xwin/dri
+-I/home/haplessidiot/Documents/xserver/hw/xwin/glx
+-I/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard
+-I/home/haplessidiot/Documents/xserver/include
+-I/home/haplessidiot/Documents/xserver/mi
+-I/home/haplessidiot/Documents/xserver/miext
+-I/home/haplessidiot/Documents/xserver/miext/damage
+-I/home/haplessidiot/Documents/xserver/miext/rootless
+-I/home/haplessidiot/Documents/xserver/miext/shadow
+-I/home/haplessidiot/Documents/xserver/miext/sync
+-I/home/haplessidiot/Documents/xserver/os
+-I/home/haplessidiot/Documents/xserver/present
+-I/home/haplessidiot/Documents/xserver/pseudoramiX
+-I/home/haplessidiot/Documents/xserver/randr
+-I/home/haplessidiot/Documents/xserver/record
+-I/home/haplessidiot/Documents/xserver/render
+-I/home/haplessidiot/Documents/xserver/test
+-I/home/haplessidiot/Documents/xserver/test/xi2
+-I/home/haplessidiot/Documents/xserver/Xext
+-I/home/haplessidiot/Documents/xserver/Xext/namespace
+-I/home/haplessidiot/Documents/xserver/xfixes
+-I/home/haplessidiot/Documents/xserver/Xi
+-I/home/haplessidiot/Documents/xserver/xkb -I/home/haplessidiot/Documents/xserver/build -I/home/haplessidiot/Documents/xserver/builddir' '/home/haplessidiot/Documents/xserver/test/input.c'
 C2V failed to translate the C files. Please report it via GitHub.

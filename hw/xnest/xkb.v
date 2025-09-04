@@ -96,5 +96,5 @@ main loop 5
 1FN DECL c_name="xcb_xkb_get_kbd_by_name_2_unchecked" cur_file="/home/haplessidiot/Documents/xserver/hw/xnest/xkb.c" node.location.file=""
 1FN DECL c_name="xcb_xkb_get_kbd_by_name_2" cur_file="/home/haplessidiot/Documents/xserver/hw/xnest/xkb.c" node.location.file="/home/haplessidiot/Documents/xserver/hw/xnest/xkb.c"
 1FN DECL c_name="xcb_xkb_get_kbd_by_name_2_unchecked" cur_file="/home/haplessidiot/Documents/xserver/hw/xnest/xkb.c" node.location.file=""
- c2v translate_file() took   313 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xnest/xkb.v
-Translated   1 files in   313 ms.
+ c2v translate_file() took   332 ms ; output .v file: hw/xnest/xkb.v
+Translated   1 files in   332 ms.

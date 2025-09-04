@@ -918,5 +918,5 @@ main loop 8
 1FN DECL c_name="keysym2ucs" cur_file="/home/haplessidiot/Documents/xserver/hw/xquartz/keysym2ucs.c" node.location.file=""
 1FN DECL c_name="reverse_compare" cur_file="/home/haplessidiot/Documents/xserver/hw/xquartz/keysym2ucs.c" node.location.file=""
 1FN DECL c_name="ucs2keysym" cur_file="/home/haplessidiot/Documents/xserver/hw/xquartz/keysym2ucs.c" node.location.file=""
- c2v translate_file() took   122 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xquartz/keysym2ucs.v
-Translated   1 files in   122 ms.
+ c2v translate_file() took   132 ms ; output .v file: hw/xquartz/keysym2ucs.v
+Translated   1 files in   132 ms.

@@ -394,5 +394,5 @@ main loop 15
 1FN DECL c_name="test_poly_rectangle" cur_file="/home/haplessidiot/Documents/xserver/test/damage/primitives.c" node.location.file=""
 1FN DECL c_name="test_poly_segment" cur_file="/home/haplessidiot/Documents/xserver/test/damage/primitives.c" node.location.file=""
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/test/damage/primitives.c" node.location.file=""
- c2v translate_file() took   343 ms ; output .v file: /home/haplessidiot/Documents/xserver/test/damage/primitives.v
-Translated   1 files in   343 ms.
+ c2v translate_file() took   346 ms ; output .v file: test/damage/primitives.v
+Translated   1 files in   346 ms.

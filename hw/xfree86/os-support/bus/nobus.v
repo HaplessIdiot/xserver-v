@@ -12,5 +12,5 @@ path=/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus/nobus.c
 main loop 2
 1FN DECL c_name="__noop_to_appease_ar__" cur_file="/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus/nobus.c" node.location.file="/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus/nobus.c"
 1FN DECL c_name="__noop_to_appease_ar__" cur_file="/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus/nobus.c" node.location.file=""
- c2v translate_file() took    15 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xfree86/os-support/bus/nobus.v
-Translated   1 files in    15 ms.
+ c2v translate_file() took    19 ms ; output .v file: hw/xfree86/os-support/bus/nobus.v
+Translated   1 files in    19 ms.

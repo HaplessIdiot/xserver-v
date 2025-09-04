@@ -104,5 +104,5 @@ int main(int argc, char **argv)
 path=/home/haplessidiot/Documents/xserver/test/bigreq/request-length.c
 main loop 1
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/test/bigreq/request-length.c" node.location.file="/home/haplessidiot/Documents/xserver/test/bigreq/request-length.c"
- c2v translate_file() took   414 ms ; output .v file: /home/haplessidiot/Documents/xserver/test/bigreq/request-length.v
-Translated   1 files in   414 ms.
+ c2v translate_file() took   442 ms ; output .v file: test/bigreq/request-length.v
+Translated   1 files in   442 ms.

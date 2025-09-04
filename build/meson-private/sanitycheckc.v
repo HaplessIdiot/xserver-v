@@ -4,5 +4,5 @@ C to V translator 0.4.1
 path=/home/haplessidiot/Documents/xserver/build/meson-private/sanitycheckc.c
 main loop 1
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/build/meson-private/sanitycheckc.c" node.location.file="/home/haplessidiot/Documents/xserver/build/meson-private/sanitycheckc.c"
- c2v translate_file() took    14 ms ; output .v file: /home/haplessidiot/Documents/xserver/build/meson-private/sanitycheckc.v
-Translated   1 files in    14 ms.
+ c2v translate_file() took    19 ms ; output .v file: build/meson-private/sanitycheckc.v
+Translated   1 files in    19 ms.

@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Init.c:54:10: fatal error: 'config/dbus-core.h' file not found
-   54 | #include "config/dbus-core.h"
-      |          ^~~~~~~~~~~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Init.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86Init.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

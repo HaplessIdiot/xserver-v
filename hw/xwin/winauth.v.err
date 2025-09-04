@@ -1,10 +1,1 @@
-In file included from /home/haplessidiot/Documents/xserver/hw/xwin/winauth.c:36:
-In file included from /home/haplessidiot/Documents/xserver/hw/xwin/winmsg.h:34:
-/usr/include/X11/Xwindows.h:77:10: fatal error: 'windows.h' file not found
-   77 | #include <windows.h>
-      |          ^~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xwin/winauth.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xwin/winauth.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

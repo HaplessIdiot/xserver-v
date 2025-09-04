@@ -39,5 +39,5 @@ path=/home/haplessidiot/Documents/xserver/dix/stubmain.c
 main loop 2
 1FN DECL c_name="dix_main" cur_file="/home/haplessidiot/Documents/xserver/dix/stubmain.c" node.location.file="/home/haplessidiot/Documents/xserver/dix/stubmain.c"
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/dix/stubmain.c" node.location.file=""
- c2v translate_file() took    16 ms ; output .v file: /home/haplessidiot/Documents/xserver/dix/stubmain.v
-Translated   1 files in    16 ms.
+ c2v translate_file() took    19 ms ; output .v file: dix/stubmain.v
+Translated   1 files in    19 ms.

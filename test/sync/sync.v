@@ -320,5 +320,5 @@ main loop 11
 1FN DECL c_name="test_change_alarm_value" cur_file="/home/haplessidiot/Documents/xserver/test/sync/sync.c" node.location.file=""
 1FN DECL c_name="test_change_alarm_delta" cur_file="/home/haplessidiot/Documents/xserver/test/sync/sync.c" node.location.file=""
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/test/sync/sync.c" node.location.file=""
- c2v translate_file() took   249 ms ; output .v file: /home/haplessidiot/Documents/xserver/test/sync/sync.v
+ c2v translate_file() took   249 ms ; output .v file: test/sync/sync.v
 Translated   1 files in   249 ms.

@@ -55,6 +55,7 @@ C to V translator 0.4.1
 #include "xf86Bus.h"
 #include "Pci.h"
 #include "xf86platformBus.h"
+#include "xf86Xinput_priv.h"
 #include "xf86Config.h"
 #include "xf86Crtc.h"
 
@@ -178,49 +179,12 @@ xf86_check_platform_slot(const struct xf86_platform_device *pd)
 }
 
 static Bool
-MatchToken(const char *value, struct xorg_list *patterns,
-           int (*compare)(const char *, const char *))
-{
-    const xf86MatchGroup *group;
-
-    /* If there are no patterns, accept the match */
-    if (xorg_list_is_empty(patterns))
-        return TRUE;
-
-    /* If there are patterns but no attribute, reject the match */
-    if (!value)
-        return FALSE;
-
-    /*
-     * Otherwise, iterate the list of patterns ensuring each entry has a
-     * match. Each list entry is a separate Match line of the same type.
-     */
-    xorg_list_for_each_entry(group, patterns, entry) {
-        Bool match = FALSE;
-        char *const *cur;
-
-        for (cur = group->values; *cur; cur++) {
-            if ((*compare)(value, *cur) == 0) {
-                match = TRUE;
-                break;
-            }
-        }
-
-        if (!match)
-            return FALSE;
-    }
-
-    /* All the entries in the list matched the attribute */
-    return TRUE;
-}
-
-static Bool
 OutputClassMatches(const XF86ConfOutputClassPtr oclass,
                    struct xf86_platform_device *dev)
 {
     char *driver = dev->attribs->driver;
 
-    if (!MatchToken(driver, &oclass->match_driver, strcmp))
+    if (!MatchAttrToken(driver, &oclass->match_driver))
         return FALSE;
 
     return TRUE;
@@ -861,5 +825,5 @@ _xf86_get_platform_device_int_attrib(struct xf86_platform_device *device, int at
 
 path=/home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86platformBus.c
 main loop 0
- c2v translate_file() took    16 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xfree86/common/xf86platformBus.v
-Translated   1 files in    16 ms.
+ c2v translate_file() took    19 ms ; output .v file: hw/xfree86/common/xf86platformBus.v
+Translated   1 files in    19 ms.

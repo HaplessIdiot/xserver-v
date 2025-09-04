@@ -67,5 +67,5 @@ main loop 29
 1FN DECL c_name="xi2_test" cur_file="/home/haplessidiot/Documents/xserver/test/tests-common.c" node.location.file=""
 1FN DECL c_name="run_test_in_child" cur_file="/home/haplessidiot/Documents/xserver/test/tests-common.c" node.location.file="/home/haplessidiot/Documents/xserver/test/tests-common.h"
 1FN DECL c_name="run_test_in_child" cur_file="/home/haplessidiot/Documents/xserver/test/tests-common.c" node.location.file="/home/haplessidiot/Documents/xserver/test/tests-common.c"
- c2v translate_file() took    87 ms ; output .v file: /home/haplessidiot/Documents/xserver/test/tests-common.v
-Translated   1 files in    87 ms.
+ c2v translate_file() took    97 ms ; output .v file: test/tests-common.v
+Translated   1 files in    97 ms.

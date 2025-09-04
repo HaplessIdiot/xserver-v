@@ -1,9 +1,1 @@
-In file included from /home/haplessidiot/Documents/xserver/hw/xwin/winvalargs.c:34:
-/home/haplessidiot/Documents/xserver/hw/xwin/win.h:147:10: fatal error: 'dix/colormap_priv.h' file not found
-  147 | #include "dix/colormap_priv.h"
-      |          ^~~~~~~~~~~~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xwin/winvalargs.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xwin/winvalargs.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

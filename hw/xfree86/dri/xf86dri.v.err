@@ -1,8 +1,1 @@
-/home/haplessidiot/Documents/xserver/hw/xfree86/dri/xf86dri.c:45:10: fatal error: 'dix/dix_priv.h' file not found
-   45 | #include "dix/dix_priv.h"
-      |          ^~~~~~~~~~~~~~~~
-1 error generated.
-
-The file /home/haplessidiot/Documents/xserver/hw/xfree86/dri/xf86dri.c could not be parsed as a C source file.
-C2V command: '/home/haplessidiot/.vmodules/c2v/c2v' 'c' '/home/haplessidiot/Documents/xserver/hw/xfree86/dri/xf86dri.c'
-C2V failed to translate the C files. Please report it via GitHub.
+Cannot save output binary in a .v file.

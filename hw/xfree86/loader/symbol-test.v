@@ -55,5 +55,5 @@ int main (int argc, char**argv)
 path=/home/haplessidiot/Documents/xserver/hw/xfree86/loader/symbol-test.c
 main loop 1
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/hw/xfree86/loader/symbol-test.c" node.location.file="/home/haplessidiot/Documents/xserver/hw/xfree86/loader/symbol-test.c"
- c2v translate_file() took    60 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xfree86/loader/symbol-test.v
-Translated   1 files in    60 ms.
+ c2v translate_file() took    70 ms ; output .v file: hw/xfree86/loader/symbol-test.v
+Translated   1 files in    70 ms.

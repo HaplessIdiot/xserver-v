@@ -29,7 +29,7 @@ get_drm_info(struct OdevAttributes *attribs, char *path, int delayed_index)
     drmVersionPtr v;
     int fd;
     int err = 0;
-    Bool paused, server_fd = FALSE;
+    Bool paused = FALSE, server_fd = FALSE;
 
     LogMessage(X_INFO, "Platform probe for %s\n", attribs->syspath);
 
@@ -229,5 +229,5 @@ out:
 
 path=/home/haplessidiot/Documents/xserver/hw/xfree86/os-support/shared/drm_platform.c
 main loop 0
- c2v translate_file() took    13 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xfree86/os-support/shared/drm_platform.v
-Translated   1 files in    13 ms.
+ c2v translate_file() took    20 ms ; output .v file: hw/xfree86/os-support/shared/drm_platform.v
+Translated   1 files in    20 ms.

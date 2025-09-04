@@ -91,5 +91,5 @@ main loop 5
 1FN DECL c_name="winFixClipboardChain" cur_file="/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/xwinclip.c" node.location.file=""
 1FN DECL c_name="winClipboardWindowDestroy" cur_file="/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/xwinclip.c" node.location.file=""
 1FN DECL c_name="main" cur_file="/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/xwinclip.c" node.location.file="/home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/xwinclip.c"
- c2v translate_file() took   254 ms ; output .v file: /home/haplessidiot/Documents/xserver/hw/xwin/winclipboard/xwinclip.v
-Translated   1 files in   254 ms.
+ c2v translate_file() took   239 ms ; output .v file: hw/xwin/winclipboard/xwinclip.v
+Translated   1 files in   239 ms.
