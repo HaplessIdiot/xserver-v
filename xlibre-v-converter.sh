@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #
-# translate_xlibre.sh — Batch V translation of XLibre Xserver C sources
+# xlibre-v-converter.sh — Batch V translation of XLibre Xserver C sources
 #
-# Usage: ./translate_xlibre.sh /path/to/v /path/to/xlibre /path/to/output [builddir]
+# Usage: ./xlibre-v-converter.sh /path/to/v /path/to/xlibre /path/to/output [builddir]
 #
 set -uo pipefail
 V_BIN="${1:-}"
